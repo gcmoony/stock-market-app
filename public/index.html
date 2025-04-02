@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Data</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="">
+  <nav class="container padding">
+    <div class="container col">
+      <h1>Stonks</h1>
+      <p>The Live Stock Tracker</p>
+    </div>
+    <ul class="container spacing">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Earnings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Display a graph -->
+  <div class="container padding col">
+    <h2>Graph Data for <span id="name">(placeholder)</span></h2>
+    <canvas id="stockGraph"></canvas>
+  </div>
+  <footer className='sticky bottom-0 bg-slate-800 text-slate-100 p-4 text-center'>
+    Created by
+    <a className='hover:text-yellow-400 transition' href='https://github.com/GCMoony'>
+      GCMoony
+    </a>
+  </footer>
+
+</body>
+
+</html>
