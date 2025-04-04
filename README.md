@@ -24,5 +24,8 @@ What I'd like to do in the future:
 
 ### Demo
 
-Here's a image demonstration of the application in use (with randomized values
-due to market closure): <br/> <img src="./demo.png" alt="App demo">
+Here's a video demonstration of the application in use (00:20): <br/>
+<img src="stock-app-demo.gif" alt="App demo">
+
+<center> <i>NOTE: The grid
+appears to have weird artifacting only in the GIF.</i></center>
